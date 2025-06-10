@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e6f0ff;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .container {
+    background-color: white;
+    padding: 20px;
+    width: 100%;
+    max-width: 550px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 10px rgba(0,0,0,0.1);
+  }
+  
+  header h1 {
+    text-align: center;
+    color: #003366;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 15px;
+  }
+  
+  input, select, button {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    background-color: #0066cc;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #004d99;
+  }
+  
+  h2 {
+    margin-top: 30px;
+    color: #333;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #f2f2f2;
+    border-left: 6px solid;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  li.entrada {
+    border-color: #28a745;
+    color: #28a745;
+  }
+  
+  li.saida {
+    border-color: #dc3545;
+    color: #dc3545;
+  }
+  
+  .box-saldo {
+    margin-top: 25px;
+    text-align: center;
+    font-size: 20px;
+    color: #333;
+  }
+  

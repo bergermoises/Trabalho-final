@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Meu Controle de Gastos</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Controle de Gastos</h1>
+    </header>
+
+    <form id="form-transacao">
+      <input type="text" id="campoDescricao" placeholder="Descrição do gasto" required />
+      <input type="number" id="campoValor" placeholder="Valor (ex: 100.00)" required />
+      <select id="campoTipo" required>
+        <option disabled selected>Tipo</option>
+        <option value="entrada">Entrada</option>
+        <option value="saida">Saída</option>
+      </select>
+      <button type="submit">Registrar</button>
+    </form>
+
+    <h2>Minhas transações</h2>
+    <ul id="lista-transacoes"></ul>
+
+    <div class="box-saldo">
+      <strong>Saldo Atual:</strong> R$ <span id="saldo">0.00</span>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
